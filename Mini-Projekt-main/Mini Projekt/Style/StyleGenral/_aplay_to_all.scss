@@ -1,0 +1,15 @@
+* { text-align: center;
+    color:$color3 ;
+}
+h1, h2, h3 ,h4, h5 {
+    text-align: center;
+    font-size: $font2;
+}
+.p{
+    font-size: 100px;
+}
+a {
+    color: black; // Domyślny kolor linku
+    font-weight: bold;  
+    text-decoration: none;
+  }

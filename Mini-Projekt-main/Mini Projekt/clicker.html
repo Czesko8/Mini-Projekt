@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- https://sass-lang.com/ -->
+     <link rel="stylesheet" href="./Style/style_index.css">
+     <link rel="stylesheet" href="./Style/kliker/_cliker.scss">
+     <script src="./javascript/values.js" defer></script>
+     <script src="./javascript/openMenu.js" defer></script>
+     <script src="./javascript/clicker.js" defer></script>
+</head>
+<body>      
+    <header class="header" >
+        <div class="header__menu">
+            <button class="myButton" id="menu">Menu</button>
+        </div>
+    </header>
+    <header class="header__menu--open" id="menuContainer">
+        <div class="setting_menu">
+            <ul>    
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="calculator.html">Kalkulator</a></li>
+            <li><a href="stoper.html">Stoper</a></li>
+            <li><a href="calculator.html">4</a></li>
+            <li><a href="clicker.html">5</a></li>
+            <li><a href="calculator.html">6</a></li>
+            <li>
+                <button class="header__menu--close__button" id="menu--close">
+                Close
+                </button>
+            </li>
+            </ul>
+        </div>
+      </header>
+
+    <section class="composition_clicker">
+        <div class ="setting_clicker" >
+            <div>
+                <h1> Przetestuj się </h1>
+                <p class="result">0</p>
+            </div>
+            <div class="photo_cliker">
+                <img src=./Style/Img/1P.jpg alt="">
+                <h1>Klikaj w potfora</h1>
+            </div>
+            <div class="reset"> Resetuj </div>
+        </div>
+    </section>
+</body>

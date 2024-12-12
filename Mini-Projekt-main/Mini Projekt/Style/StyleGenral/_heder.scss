@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  @include center;
+  justify-content: flex-end;
+  position: sticky; // Ustawienie sticky
+  top: 0;           // Pozycja względem górnej krawędzi okna przeglądarki
+  z-index: 100;     // Wyższy indeks warstwy, aby pozostał nad innymi elementami
+ 
+  &__menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    @include center;
+  }
+}
+.myButton{
+  background-color: $color4;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px
+}

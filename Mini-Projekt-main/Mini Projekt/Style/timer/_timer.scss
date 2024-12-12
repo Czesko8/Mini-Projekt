@@ -1,0 +1,49 @@
+.timer{
+    border-left: $font1 solid $color1;
+    border-right: $font1 solid $color1;
+    border-top: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+    display: flex;
+    @include center
+}
+
+.timer_settings{
+    text-align: center;
+    border: 3x solid;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(5, 78, 5);
+
+}
+
+.timer_namber{
+    font-size: 100px;
+    padding: 20px;
+    color: rgb(2, 58, 14);
+}
+.button_start{
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(5, 78, 5);
+    border-radius: 5px;
+    
+}
+.button_stop{
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(65, 4, 4); 
+    border-radius: 5px;
+}
+.button_close{
+    font-size: 20px;
+    width: 65px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(61, 55, 55); 
+    border-radius: 5px;
+}

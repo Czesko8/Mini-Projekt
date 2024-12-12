@@ -1,0 +1,27 @@
+.section-4 {
+    border-top: $font1 solid $color1;
+    border-left: $font1 solid $color1;
+    border-right: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+    }
+
+.section-4-ustawienia{
+    width: auto;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+
+.section-4-ustawienia--img{
+    width: 500px;
+        img {
+          width: 100%;
+        }
+}
+
+.section-4-ustawienia--text{
+    width: 500px;
+}
