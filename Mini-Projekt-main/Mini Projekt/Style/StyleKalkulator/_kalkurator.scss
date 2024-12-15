@@ -1,0 +1,31 @@
+.calculator_section{
+    display: flex;
+    @include center;
+    border: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+    flex-direction:column;
+}
+
+.setting_menu{
+    @include center;
+}
+.calculator__buttons{
+    max-width: 170px;
+    height: auto;
+    @include center;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    margin-top: 20px;
+    // width: 100%; 
+    // max-width: 400px; 
+    // height: auto; 
+    // transition: transform 0.3s ease; 
+}
+button{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(86, 0, 107);
+}

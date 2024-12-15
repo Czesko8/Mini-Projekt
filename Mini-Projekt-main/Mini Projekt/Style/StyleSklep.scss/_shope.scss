@@ -1,0 +1,26 @@
+.shope_styl{
+    border: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+    &__img{
+        display: flex;
+        @include center;
+        flex-wrap: wrap;
+        gap: 20px;  
+        @include photo;
+    }
+}
+
+.basket_shop{
+    display: flex;
+    @include center;
+    justify-content: flex-end;
+    position: sticky; 
+    bottom: 30px;        
+    z-index: 150; 
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+}

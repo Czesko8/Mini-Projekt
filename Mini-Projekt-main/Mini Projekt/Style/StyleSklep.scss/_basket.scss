@@ -1,0 +1,39 @@
+.basket_list{
+    @include center;
+    position: sticky; 
+    bottom: 50px;           
+    z-index: 200;
+    &_main{
+        display: none;
+        flex-direction:column;
+        border: 20px solid $color2;
+        width: 400px;
+        height: auto;
+        background-color: $color4;
+        gap: 10px;
+        p{
+            padding: 17px;
+            font-size: 25px;
+        }    
+    }
+}
+
+
+.basket_button{
+    @include center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 10px;
+    &_reset{    
+        background-color: red;
+        margin: 10px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    &_close{    
+        background-color: rgb(0, 0, 0);
+        margin: 10px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,10 @@
+.galeria_sction{
+    border: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+    display: flex;
+    @include center;
+    flex-wrap: wrap;
+    gap: 20px;  
+    @include photo;
+}

@@ -15,6 +15,14 @@
 @import "./StyleIndex/section-3.scss";
 @import "./StyleIndex/section-4.scss";
 //--------------------------------------------------
-@import "./kliker/cliker";
+@import "./StyleCliker/cliker";
 //---------------------------------------------------------
-@import "./timer/timer"
+@import "./StyleTimer/timer";
+//-------------------------
+@import "./StyleGaleria/galeria";
+//----------------------------------------------+
+@import "./StyleSklep.scss/shope";
+@import "./StyleSklep.scss/inf_produkt";
+@import "./StyleSklep.scss/basket.scss";
+//--------------------------------
+@import "./StyleKalkulator/kalkurator";

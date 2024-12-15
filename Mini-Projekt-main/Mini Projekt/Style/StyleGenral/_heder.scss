@@ -7,7 +7,6 @@
   position: sticky; // Ustawienie sticky
   top: 0;           // Pozycja względem górnej krawędzi okna przeglądarki
   z-index: 100;     // Wyższy indeks warstwy, aby pozostał nad innymi elementami
- 
   &__menu {
     width: auto;
     height: auto;

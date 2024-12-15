@@ -1,0 +1,40 @@
+.composition_clicker{
+    border-left: $font1 solid $color1;
+    border-right: $font1 solid $color1;
+    border-top: $font1 solid $color1;
+    padding: $font2 ;  
+    background-color: $color4;
+}
+.setting_clicker{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+.photo_cliker{
+    @include photo
+}
+.result{
+    font-size: 25px;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    background-color: $colorButton;
+    border-radius: 30px;
+    margin: 20px;
+    display: flex;
+    @include center
+}
+
+.reset{
+    font-size: 25px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: $colorButton;
+    border-radius: 30px;
+    margin: 20px;
+    display: flex;
+    @include center
+}

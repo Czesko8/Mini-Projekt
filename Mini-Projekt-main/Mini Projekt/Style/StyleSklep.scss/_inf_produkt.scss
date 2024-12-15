@@ -1,0 +1,44 @@
+.ustawienie_inf_produkt{
+    @include center;
+    position: sticky; // Ustawienie sticky
+    top: 100px;
+    bottom: 5px;           // Pozycja względem górnej krawędzi okna przeglądarki
+    z-index: 150;
+}
+.inf_produkt{
+    display: none;
+    border: 20px solid $color2;
+    width: 400px;
+    height: auto;
+    background-color: $color4;
+    gap: 10px;
+    padding-top: 20px;
+    p{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    
+}
+.inf_produkt_button{
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.shope_button_buy{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+}
+.shope_button_close{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+}
